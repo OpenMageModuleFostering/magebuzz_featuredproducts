@@ -41,4 +41,14 @@
 			</block>
 		</reference>
 	</catalog_category_layered>
+
+	<catalog_category_default>
+		<reference name="content">
+			<block type="featuredproducts/product_list_categorypage" before="product_list" name="featuredproducts.list.categorypage">
+				<action method="setTemplate" ifconfig="featured_products/categorypage/enabled">
+					<template>featuredproducts/list/categorypage.phtml</template>
+				</action>
+			</block>
+		</reference>
+	</catalog_category_default>
 </layout> 
