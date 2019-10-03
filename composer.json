@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Magebuzz_Featuredproducts",
+    "name": "OpenMageModuleFostering\/Magebuzz_Featuredproducts",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Featured Products Extenstion",
     "authors": [
-    {
-        "name": "Magebuzz",
-        "email": "magebuzz@gmail.com"
-    }
-],
+        {
+            "name": "Magebuzz",
+            "email": "magebuzz@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
